@@ -1,0 +1,20 @@
+{
+  "name": "salwa/belajar-php-composer-hello",
+  "description": "Library Hello",
+  "version": "1.0.0",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Salwa\\Belajar\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "salwashs",
+      "email": "salwa2105salsabila@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
